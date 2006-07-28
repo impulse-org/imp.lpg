@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="org.eclipse.safari.jikespg" default="build.update.jar" basedir=".">
 	<import file="../com.ibm.watson.safari.feature/buildCommon.xml"/>
-	<import file="buildCommon2.xml"/>
+	<import file="../com.ibm.watson.safari.update/buildPluginCommon.xml"/>
 
 	<target name="init" depends="properties">
 		<property name="plugin.name" value="org.eclipse.safari.jikespg"/>
@@ -47,7 +47,7 @@
 			<fileset dir="icons/"/>
 		</copy>
   -->
-		<copy file="plugin.xml" todir="${temp.folder}/${plugin.jar.name}.bin" failonerror="true"/>
+<!--		<copy file="plugin.xml" todir="${temp.folder}/${plugin.jar.name}.bin" failonerror="true"/> -->
 		<mkdir dir="${build.result.folder}"/>
 		<jar destfile="${build.result.folder}/${plugin.jar.name}" basedir="${temp.folder}/${plugin.jar.name}.bin"
 			manifest="META-INF/MANIFEST.MF"/>
