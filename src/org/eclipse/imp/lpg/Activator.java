@@ -1,4 +1,4 @@
-package org.eclipse.safari.jikespg;
+package org.eclipse.imp.lpg;
 
 import org.eclipse.core.runtime.Plugin;
 import org.osgi.framework.BundleContext;
