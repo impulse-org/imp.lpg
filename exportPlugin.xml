@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="org.eclipse.safari.jikespg" default="build.update.jar" basedir=".">
-	<import file="../org.eclipse.safari.jikespg.feature/buildCommon.xml"/>
-	<import file="../org.eclipse.safari.update/buildPluginCommon.xml"/>
+<project name="org.eclipse.imp.lpg" default="build.update.jar" basedir=".">
+	<import file="../org.eclipse.imp.lpg.feature/buildCommon.xml"/>
+	<import file="../org.eclipse.imp.update/buildPluginCommon.xml"/>
 
 	<target name="init" depends="properties">
-		<property name="plugin.name" value="org.eclipse.safari.jikespg"/>
-		<property name="plugin.version" value="${jikespg.version}"/>
+		<property name="plugin.name" value="org.eclipse.imp.lpg"/>
+		<property name="plugin.version" value="${lpg.version}"/>
 		<property name="plugin.jar.name" value="${plugin.name}_${plugin.version}.jar"/>
 		<property name="plugin.zip.name" value="${plugin.name}_${plugin.version}.zip"/>
 		<property name="plugin.src.zip" value="${plugin.name}src.zip"/>
