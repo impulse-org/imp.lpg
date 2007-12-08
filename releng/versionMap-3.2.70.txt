@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version pluginID="org.eclipse.imp.lpg"
+         versionID="3.2.70">
+    <file path="/org.eclipse.imp.lpg/src/org/eclipse/imp/lpg/Activator.java"
+          version="1.3"/>
+</version>
