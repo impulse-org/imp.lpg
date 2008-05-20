@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: LPG IDE (Incubation)
+Bundle-Name: LPG IDE & Meta-tooling (Incubation)
 Bundle-SymbolicName: org.eclipse.imp.lpg
 Bundle-Version: 0.1.73
 Bundle-Activator: org.eclipse.imp.lpg.Activator
